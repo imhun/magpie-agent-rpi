@@ -1,0 +1,10 @@
+{
+  "name": "magpie-agent-rpi",
+  "version": "0.1.0",
+  "description": "rpi (pi-rust/rpi) as a magpie agent: pick one of magpie's models for it on the Agents page",
+  "type": "module",
+  "files": ["rpi.agent.js", "README.md"],
+  "keywords": ["magpie", "magpie-agent", "rpi", "pi", "llm-gateway"],
+  "license": "MIT",
+  "magpie": { "agent": "./rpi.agent.js" }
+}

@@ -1,0 +1,12 @@
+# No OS cruft
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# No dependencies, no build output
+node_modules/
+dist/
+*.log
+
+# No installs of the package itself
+*.tgz
